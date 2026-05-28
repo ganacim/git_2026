@@ -10,10 +10,14 @@ def fib(i):
 
 def main():
     i = int(sys.argv[1])
+    print(sys.argv)
 
+    print(">>>>>>>>>>>>>>>>>>>>>>>")
+    print(">>>>>>>>>>>>>>>>>>>>>>>")
     print(f"Calculando fib({i})")
     print(fib(i))
-    print("----------------------")
+    print("<<<<<<<<<<<<<<<<<<<<<<<")
+    print("<<<<<<<<<<<<<<<<<<<<<<<")
 
 if __name__ == "__main__":
     main()
